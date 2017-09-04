@@ -1,0 +1,25 @@
+$categories: (
+ even: color($colors, danger),
+ odd: color($colors, primary)
+);
+
+@function auxiliary-categories() {
+  @return map-remove($categories);
+}
+
+page-schedule {
+  @each $opt, $value in auxiliary-categories() {
+   ion-item[opt=#{$opt}] button ion-label {
+     border-left: 2px solid $value;
+     padding-left: 10px;
+   }
+  }
+  
+  ion-item-divider ion-label {
+    text-align: left;
+  }
+}
+
+ion-slides {
+  height: auto;
+}

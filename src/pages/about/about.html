@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Informações</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-card class="cards-list-demo">
+    <ion-card-header (click)="togleInfo(1)">
+      <ion-icon [name]="shows[0].icon" class="header"></ion-icon>
+      Seminários
+    </ion-card-header>
+    <ion-list *ngIf="shows[0].show">
+      <button ion-item *ngFor="let d of seminarData" (click)="toggleSeminar(d)">
+        <ion-icon item-left [name]="d.icon" color="primary" class="seminar"></ion-icon>
+        {{d.title}}
+        <div *ngIf="d.showDetails" [innerHTML]="d.details"></div>
+      </button>
+    </ion-list>
+  </ion-card>
+  <ion-card class="cards-list-demo">
+    <ion-card-header (click)="togleInfo(2)">
+      <ion-icon [name]="shows[1].icon" class="header"></ion-icon>
+      Preços - Quiosques
+    </ion-card-header>
+    <ion-item-group *ngIf="shows[1].show">
+      <ion-item-divider color="light">
+        <ion-row>
+          <ion-col width-75>
+            Produto
+          </ion-col>
+          <ion-col>
+            Preço
+          </ion-col>
+        </ion-row>
+      </ion-item-divider>
+
+      <ion-item *ngFor="let p of products">
+        <ion-row (click)="showAlertKiosk(p)">
+          <ion-col width-75>
+            {{p.name}}
+          </ion-col>
+          <ion-col>
+            {{p.price}}
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-item-group>
+  </ion-card>
+</ion-content>

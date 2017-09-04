@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Programação</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>{{session.name}}</h1>
+
+  <h4 *ngFor="let speaker of session.speakers">
+    Palestrante: {{speaker.name}}
+  </h4>
+
+  <p>
+    {{session.timeStart}} - {{session.timeEnd}}
+  </p>
+
+  <p><b>Local: </b>{{session.location}}</p>
+
+  <p [innerHTML]="session.description"></p>
+
+  <button ion-button block color="primary" (click)="goToSeminars()" [hidden]="this.session.isSeminar === false">Seminários</button>
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{music.name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding-left>
+  <p><b>Autor: </b>{{music.artist}}</p>
+
+  <button ion-button color="light" small (click)="changeTone()" class="btnTone">Tom: {{music.tone}}{{music.minor}}</button>
+
+  <pre [innerHTML]="chords"></pre>
+
+
+</ion-content>
