@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 
 import { ConferenceData } from '../../providers/conference-data';
+import { ProdutosProvider } from '../../providers/produtos/produtos';
 
 @Component({
   selector: 'page-about',
@@ -22,7 +23,8 @@ export class AboutPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
-    public confData: ConferenceData
+    public confData: ConferenceData,
+    public prodProv: ProdutosProvider
   ) {
     this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
     this.shows.push({ id: 2, icon: "ios-arrow-down", show: false }); //preços
@@ -50,8 +52,8 @@ export class AboutPage {
   }
 
   loadProducts() {
-    this.confData.getProducts().subscribe(products => {
-      this.products = products;
+    this.prodProv.getData().subscribe(data => {
+      this.products = data;
     });
   }
 

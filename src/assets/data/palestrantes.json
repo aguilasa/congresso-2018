@@ -1,0 +1,35 @@
+{
+    "data": [{
+        "name": "Dr. Roger M. Wanke",
+        "profilePic": "assets/img/speakers/roger_m_wanke.png",
+        "twitter": "",
+        "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
+        "location": "",
+        "email": "roger.wanke@flt.edu.br"
+      },
+      {
+        "name": "Diego Probst",
+        "profilePic": "assets/img/speakers/diego_probst.png",
+        "twitter": "",
+        "about": "Missionário - Meuc São Bento do Sul/SC<br/><\/br>Natural de Ituporanga/SC.",
+        "location": "",
+        "email": "diego.probst@meuc.org.br"
+      },
+      {
+        "name": "Fabricio Fleck",
+        "profilePic": "assets/img/speakers/fabricio_fleck.png",
+        "twitter": "",
+        "about": "Missionário - Meuc Maripá/PR<br/><\/br>Natural de Panambi/RS.",
+        "location": "",
+        "email": "fabricio.fleck@meuc.org.br"
+      },
+      {
+        "name": "Reginaldo Francisco",
+        "profilePic": "assets/img/speakers/reginaldo.png",
+        "twitter": "BrotherRegis",
+        "about": "Missionário - Meuc Cascavel/PR<br/><\/br>Natural de São Paulo/SP.",
+        "location": "",
+        "email": "reginaldo.francisco@meuc.org.br"
+      }
+    ]
+}
