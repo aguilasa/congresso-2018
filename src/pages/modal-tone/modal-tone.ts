@@ -1,8 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ViewController } from 'ionic-angular';
 
-import { ConferenceData } from '../../providers/conference-data';
-
 @Component({
   selector: 'page-modal-tone',
   templateUrl: 'modal-tone.html'
@@ -17,8 +15,7 @@ export class ModalTonePage {
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
-    public viewCtrl: ViewController,
-    public confData: ConferenceData
+    public viewCtrl: ViewController
   ) {
 
   }

@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 
-import { ConferenceData } from '../../providers/conference-data';
 import { ProdutosProvider } from '../../providers/produtos/produtos';
+import { SeminariosProvider } from '../../providers/seminarios/seminarios';
 
 @Component({
   selector: 'page-about',
@@ -23,7 +23,7 @@ export class AboutPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
-    public confData: ConferenceData,
+    public seminProv: SeminariosProvider,
     public prodProv: ProdutosProvider
   ) {
     this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
@@ -36,7 +36,7 @@ export class AboutPage {
   }
 
   loadSeminars() {
-    this.confData.getSeminars().subscribe(seminars => {
+    this.seminProv.getData().subscribe(seminars => {
       let i: number = 0;
       for (let seminar of seminars) {
         i++;

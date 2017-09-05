@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { MusicasProvider } from '../../providers/musicas/musicas';
 import { MusicDetailPage } from '../music-detail/music-detail'
 
 @Component({
@@ -11,10 +11,10 @@ import { MusicDetailPage } from '../music-detail/music-detail'
 export class MusicListPage {
   musics = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public confData: ConferenceData) { }
+  constructor(public navCtrl: NavController, public navParams: NavParams, public musProv: MusicasProvider) { }
 
   ionViewDidLoad() {
-    this.confData.getMusics().subscribe(musics => {
+    this.musProv.getData().subscribe(musics => {
       this.musics = musics;
     });
   }

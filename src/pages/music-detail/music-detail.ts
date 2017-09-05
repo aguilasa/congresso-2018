@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, ModalController } from 'ionic-angular';
 import { ModalTonePage } from '../modal-tone/modal-tone';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { TonsProvider } from '../../providers/tons/tons';
 
 @Component({
   selector: 'page-music-detail',
@@ -14,18 +14,27 @@ export class MusicDetailPage {
   tones: any;
 
   constructor(
-    public navCtrl: NavController, 
-    public navParams: NavParams, 
+    public navCtrl: NavController,
+    public navParams: NavParams,
     public modalCtrl: ModalController,
-    public confData: ConferenceData) {
+    public tonsProv: TonsProvider) {
     this.music = navParams.data;
   }
 
   ionViewDidLoad() {
-    this.confData.getTones().subscribe(tones => {
+    this.tonsProv.getData().subscribe(tones => {
       this.tones = tones;
+      this.processSequences();
       this.processChords();
     });
+  }
+
+  processSequences() {
+      this.tones.forEach(tone => {
+        if (this.music.tone == tone.tone) {
+          this.music.sequence = tone.sequence;
+        }
+      });
   }
 
   processChords() {
@@ -45,11 +54,11 @@ export class MusicDetailPage {
   }
 
   replaceAll(string, token, newtoken) {
-		while (string.indexOf(token) != -1) {
-			string = string.replace(token, newtoken);
-		}
-		return string;
-	}
+    while (string.indexOf(token) != -1) {
+      string = string.replace(token, newtoken);
+    }
+    return string;
+  }
 
   changeTone() {
     let modal = this.modalCtrl.create(ModalTonePage, {

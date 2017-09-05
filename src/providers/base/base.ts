@@ -8,7 +8,7 @@ import 'rxjs/add/observable/of';
 export abstract class BaseProvider {
   data: any;
 
-  constructor(private http: Http) { }
+  constructor(public http: Http) { }
 
   private load(): any {
     if (this.data) {
