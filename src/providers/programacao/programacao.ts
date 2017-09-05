@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 import { BaseProvider } from '../base/base';
@@ -11,4 +10,9 @@ export class ProgramacaoProvider extends BaseProvider {
       return 'assets/data/programacao.json';
     }
 
+    getTimeline(dayIndex) {
+      return this.getData().map(data => {
+        return data[dayIndex];
+      });
+    }
 }

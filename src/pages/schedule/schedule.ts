@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 
 import { AlertController, App, List, ModalController, NavController, LoadingController, Slides, Content } from 'ionic-angular';
 
-import { ConferenceData } from '../../providers/conference-data';
+import { ProgramacaoProvider } from '../../providers/programacao/programacao';
 import { SessionDetailPage } from '../session-detail/session-detail';
 
 
@@ -25,10 +25,10 @@ export class SchedulePage {
     public loadingCtrl: LoadingController,
     public modalCtrl: ModalController,
     public navCtrl: NavController,
-    public confData: ConferenceData
+    public progProv: ProgramacaoProvider
   ) {
     for (let slide of this.slides) {
-      this.confData.getTimeline(slide.day).subscribe(data => {
+      this.progProv.getTimeline(slide.day).subscribe(data => {
         slide.groups = data.groups;
       });
     }
