@@ -1,22 +1,48 @@
 import { Component } from '@angular/core';
 
-/**
- * Generated class for the SeminariosComponent component.
- *
- * See https://angular.io/docs/ts/latest/api/core/index/ComponentMetadata-class.html
- * for more info on Angular Components.
- */
+import { SeminariosProvider } from '../../providers/seminarios/seminarios';
+
 @Component({
   selector: 'seminarios',
   templateUrl: 'seminarios.html'
 })
 export class SeminariosComponent {
 
-  text: string;
+  seminarData: Array<{ id: number, title: string, details: string, icon: string, showDetails: boolean }> = [];
 
-  constructor() {
-    console.log('Hello SeminariosComponent Component');
-    this.text = 'Hello World';
+  constructor(public seminProv: SeminariosProvider) {
+  }
+
+  ngOnInit() {
+    this.loadSeminars();
+  }
+
+  loadSeminars() {
+    this.seminProv.getData().subscribe(seminars => {
+      let i: number = 0;
+      for (let seminar of seminars) {
+        i++;
+        this.seminarData.push({
+          id: i,
+          title: seminar.title,
+          details: seminar.description,
+          icon: 'ios-arrow-down',
+          showDetails: false
+        });
+      }
+    });
+  }
+
+  toggleSeminar(data) {
+    for (let s of this.seminarData) {
+      if (s.id !== data.id) {
+        s.showDetails = false;
+        s.icon = 'ios-arrow-down';
+      }
+    }
+
+    data.showDetails = !data.showDetails;
+    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
 
 }

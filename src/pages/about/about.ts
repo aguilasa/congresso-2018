@@ -3,15 +3,13 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 
 import { ProdutosProvider } from '../../providers/produtos/produtos';
-import { SeminariosProvider } from '../../providers/seminarios/seminarios';
 
 @Component({
   selector: 'page-about',
   templateUrl: 'about.html'
 })
 export class AboutPage {
-
-  seminarData: Array<{ id: number, title: string, details: string, icon: string, showDetails: boolean }> = [];
+ 
   showSeminars: boolean = false;
   showPrices: boolean = false;
   seminarsIcon: string = "ios-arrow-down";
@@ -23,7 +21,6 @@ export class AboutPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
-    public seminProv: SeminariosProvider,
     public prodProv: ProdutosProvider
   ) {
     this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
@@ -31,25 +28,8 @@ export class AboutPage {
   }
 
   ionViewDidLoad() {
-    this.loadSeminars();
     this.loadProducts();
-  }
-
-  loadSeminars() {
-    this.seminProv.getData().subscribe(seminars => {
-      let i: number = 0;
-      for (let seminar of seminars) {
-        i++;
-        this.seminarData.push({
-          id: i,
-          title: seminar.title,
-          details: seminar.description,
-          icon: 'ios-arrow-down',
-          showDetails: false
-        });
-      }
-    });
-  }
+  }  
 
   loadProducts() {
     this.prodProv.getData().subscribe(data => {
@@ -75,16 +55,5 @@ export class AboutPage {
       }
       s.icon = s.show ? 'ios-arrow-up' : 'ios-arrow-down';
     }
-  }
-
-  toggleSeminar(data) {
-    for (let s of this.seminarData) {
-      if (s.id !== data.id) {
-        s.showDetails = false;
-      }
-    }
-
-    data.showDetails = !data.showDetails;
-    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
 }

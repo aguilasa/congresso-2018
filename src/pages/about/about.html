@@ -7,18 +7,15 @@
   </ion-navbar>
 </ion-header>
 <ion-content>
+
   <ion-card class="cards-list-demo">
     <ion-card-header (click)="togleInfo(1)">
       <ion-icon [name]="shows[0].icon" class="header"></ion-icon>
       Seminários
     </ion-card-header>
-    <ion-list *ngIf="shows[0].show">
-      <button ion-item *ngFor="let d of seminarData" (click)="toggleSeminar(d)">
-        <ion-icon item-left [name]="d.icon" color="primary" class="seminar"></ion-icon>
-        {{d.title}}
-        <div *ngIf="d.showDetails" [innerHTML]="d.details"></div>
-      </button>
-    </ion-list>
+
+    <seminarios no-border *ngIf="shows[0].show"></seminarios>
+
   </ion-card>
   <ion-card class="cards-list-demo">
     <ion-card-header (click)="togleInfo(2)">

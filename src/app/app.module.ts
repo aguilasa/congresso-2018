@@ -28,6 +28,8 @@ import { MusicasProvider } from '../providers/musicas/musicas';
 import { TonsProvider } from '../providers/tons/tons';
 import { SeminariosProvider } from '../providers/seminarios/seminarios';
 
+import { SeminariosComponent } from '../components/seminarios/seminarios';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { SeminariosProvider } from '../providers/seminarios/seminarios';
     MusicListPage,
     MusicDetailPage,
     ModalTonePage,
-    SeminarListPage
+    SeminarListPage,
+    SeminariosComponent
   ],
   imports: [
     BrowserModule,
