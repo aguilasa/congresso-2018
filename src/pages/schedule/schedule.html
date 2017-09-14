@@ -34,17 +34,17 @@
             </ion-label>
           </ion-item-divider>
 
-          <ion-item *ngFor="let session of group.sessions" [attr.opt]="session.opt">
+          <ion-item *ngFor="let session of group.sessions">
             <div>
-              <div class="inline">
-                oi
+              <div class="inline time">
+                <p>
+                  {{session.timeStart}} <br> {{session.timeEnd}}
+                </p>
               </div>
-              <div class="inline">
+              <div class="inline" [attr.opt]="session.opt">
                 <button ion-item (click)="goToSessionDetail(session)" detail-none>
           <h3>{{session.name}}</h3>
           <p>
-            {{session.timeStart}} &mdash;
-            {{session.timeEnd}}:
             {{session.location}}
           </p>
         </button>
