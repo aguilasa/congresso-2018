@@ -5,8 +5,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { TabsPage } from '../pages/tabs/tabs';
 
-import { ConferenceData } from '../providers/conference-data';
-
 export interface PageInterface {
   title: string;
   component: any;
@@ -40,14 +38,10 @@ export class ConferenceApp {
     public events: Events,
     public menu: MenuController,
     public platform: Platform,
-    public confData: ConferenceData,
     public splashScreen: SplashScreen
   ) {
     this.rootPage = TabsPage;
     this.platformReady();
-
-    // load the conference data
-    confData.load();
   }
 
   openPage(page: PageInterface) {

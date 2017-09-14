@@ -20,7 +20,6 @@ import { MusicDetailPage } from '../pages/music-detail/music-detail';
 import { ModalTonePage } from '../pages/modal-tone/modal-tone';
 import { SeminarListPage } from '../pages/seminar-list/seminar-list';
 
-import { ConferenceData } from '../providers/conference-data';
 import { ProdutosProvider } from '../providers/produtos/produtos';
 import { ProgramacaoProvider } from '../providers/programacao/programacao';
 import { PalestrantesProvider } from '../providers/palestrantes/palestrantes';
@@ -68,7 +67,6 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
     SeminarListPage
   ],
   providers: [
-    ConferenceData,
     SplashScreen,
     InAppBrowser,
     ProdutosProvider,
