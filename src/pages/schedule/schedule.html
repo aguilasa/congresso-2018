@@ -27,7 +27,7 @@
   <ion-slides #mySlider (ionSlideDidChange)="onSlideChanged()">
     <ion-slide *ngFor="let slide of slides">
       <ion-list #scheduleList *ngIf="slide.day == dayIndex">
-        <ion-item-group *ngFor="let group of slide.groups" >
+        <ion-item-group *ngFor="let group of slide.groups">
           <ion-item-divider sticky>
             <ion-label>
               {{group.time}}
@@ -35,7 +35,12 @@
           </ion-item-divider>
 
           <ion-item *ngFor="let session of group.sessions" [attr.opt]="session.opt">
-            <button ion-item (click)="goToSessionDetail(session)" detail-none>
+            <div>
+              <div class="inline">
+                oi
+              </div>
+              <div class="inline">
+                <button ion-item (click)="goToSessionDetail(session)" detail-none>
           <h3>{{session.name}}</h3>
           <p>
             {{session.timeStart}} &mdash;
@@ -43,6 +48,10 @@
             {{session.location}}
           </p>
         </button>
+              </div>
+
+
+            </div>
           </ion-item>
 
         </ion-item-group>

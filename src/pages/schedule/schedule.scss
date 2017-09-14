@@ -18,6 +18,10 @@ page-schedule {
   ion-item-divider ion-label {
     text-align: left;
   }
+
+  div.inline {
+    display:table-cell;
+  }
 }
 
 ion-slides {
