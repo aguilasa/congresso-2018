@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.github.aguilasa.cong2018" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>SEJA - 39� Congresso  de Jovens</name>
-    <description>Aplicativo do 39� Congresso  de Jovens
+    <name>SEJA - 39º Congresso  de Jovens</name>
+    <description>Aplicativo do 39º Congresso  de Jovens
   </description>
     <author email="ingmar.aguiar@gmail.com" href="https://aguilasa.github.io/">Ingmar Aguiar</author>
     <content src="index.html" />

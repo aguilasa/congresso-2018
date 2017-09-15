@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 
-import { ConferenceApp } from './app.component';
+import { CongressoApp } from './app.component';
 
 import { AboutPage } from '../pages/about/about';
 import { MapPage } from '../pages/map/map';
@@ -32,7 +32,7 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
 
 @NgModule({
   declarations: [
-    ConferenceApp,
+    CongressoApp,
     AboutPage,
     MapPage,
     SchedulePage,
@@ -49,11 +49,11 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(ConferenceApp)
+    IonicModule.forRoot(CongressoApp, { mode: 'ios' })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ConferenceApp,
+    CongressoApp,
     AboutPage,
     MapPage,
     SchedulePage,
