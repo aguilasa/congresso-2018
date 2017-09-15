@@ -19,6 +19,7 @@ import { MusicListPage } from '../pages/music-list/music-list';
 import { MusicDetailPage } from '../pages/music-detail/music-detail';
 import { ModalTonePage } from '../pages/modal-tone/modal-tone';
 import { SeminarListPage } from '../pages/seminar-list/seminar-list';
+import { GameListPage } from '../pages/game-list/game-list';
 
 import { ProdutosProvider } from '../providers/produtos/produtos';
 import { ProgramacaoProvider } from '../providers/programacao/programacao';
@@ -44,12 +45,13 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
     MusicDetailPage,
     ModalTonePage,
     SeminarListPage,
-    SeminariosComponent
+    SeminariosComponent,
+    GameListPage
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    IonicModule.forRoot(CongressoApp, { mode: 'ios' })
+    IonicModule.forRoot(CongressoApp , { backButtonText: '', /* mode: 'ios' */ } )
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -64,7 +66,8 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
     MusicListPage,
     MusicDetailPage,
     ModalTonePage,
-    SeminarListPage
+    SeminarListPage,
+    GameListPage
   ],
   providers: [
     SplashScreen,
