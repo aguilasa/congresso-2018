@@ -32,8 +32,8 @@ export class ProgramacaoProvider extends BaseProvider {
           session.opt = isOn ? "even" : "odd";
           isOn = !isOn;
           session.speakers = [];
-          if (session.speakerNames) {
-            session.speakerNames.forEach(speakerName => {
+          if (session.speakers) {
+            session.speakers.forEach(speakerName => {
               let speaker = this.speakers.find(s => s.name === speakerName);
               if (speaker) {
                 session.speakers.push(speaker);

@@ -1,380 +1,345 @@
 {
-    "data": [{
-        "day": "2017-02-25",
-        "groups": [{
-            "time": "05:00",
-            "sessions": [{
-              "name": "Chegada",
-              "description": "",
-              "timeStart": "05:00",
-              "timeEnd": "08:00",
-              "location": "Portões de acesso"
-            }]
-          },
-          {
-            "time": "08:00",
-            "sessions": [{
-              "name": "Chegada e credenciamento",
-              "location": "Faculdade Luterana de Teologia",
-              "description": "Retirada de crachás, cadastramento de inscrições, inscrição para esportes individuais.",
-              "timeStart": "08:00",
-              "timeEnd": "17:00"
-            }]
-          },
-          {
-            "time": "18:00",
-            "sessions": [{
-              "name": "Jantar",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "18:15",
-              "timeEnd": "20:30"
-            }]
-          },
-          {
-            "time": "20:00",
-            "sessions": [{
-              "name": "Abertura do Congresso",
-              "location": "Pavilhão",
-              "description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
-              "title": "Palestra - Insaciável Mente",
-              "speakerNames": [
-                "Reginaldo Francisco"
-              ],
-              "timeStart": "20:00",
-              "timeEnd": "22:00"
-            }]
-          },
-          {
-            "time": "22:20",
-            "sessions": [{
-              "name": "Celebração de Louvores",
-              "location": "Pavilhão",
-              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-              "timeStart": "22:00",
-              "timeEnd": "23:15"
-            }]
-          },
-          {
-            "time": "24:00",
-            "sessions": [{
-              "name": "Silêncio",
-              "location": "Todos.",
-              "description": "Hora de silenciar.",
-              "timeStart": "00:00",
-              "timeEnd": "07:00"
-            }]
-          }
-        ]
-      },
-      {
-        "day": "2017-02-26",
-        "groups": [{
-            "time": "07:00",
-            "sessions": [{
-                "name": "Acordar",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "08:00",
-                "location": "Todos"
-              },
-              {
-                "name": "Acordando com Jesus",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "07:30",
-                "location": "Rádio"
-              },
-              {
-                "name": "Café",
-                "location": "Acampamentos, quiosques",
-                "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                "timeStart": "07:30",
-                "timeEnd": "08:15"
-              }
-            ]
-          },
-          {
-            "time": "08:00",
-            "sessions": [{
-              "name": "Louvor e Palestra",
-              "location": "Pavilhão",
-              "description": "Louvor e Palestra.",
-              "title": "Palestra I: Jesus, o pão da vida!",
-              "speakerNames": [
-                "Fabricio Fleck"
-              ],
-              "timeStart": "08:15",
-              "timeEnd": "10:00"
-            }]
-          },
-          {
-            "time": "10:00",
-            "sessions": [{
-              "name": "Seminários",
-              "location": "Diversos",
-              "description": "Seminários.",
-              "timeStart": "10:00",
-              "timeEnd": "12:00",
-              "isSeminar": "true"
-            }]
-          },
-          {
-            "time": "12:00",
-            "sessions": [{
-              "name": "Almoço",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "12:30",
-              "timeEnd": "13:30"
-            }]
-          },
-          {
-            "time": "13:00",
-            "sessions": [{
-              "name": "Início dos Jogos e Tempo Livre",
-              "location": "Quadras e diversos",
-              "description": "Início dos Jogos e Tempo Livre.",
-              "timeStart": "13:15",
-              "timeEnd": "18:15"
-            }]
-          },
-          {
-            "time": "18:00",
-            "sessions": [{
-              "name": "Jantar",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "18:15",
-              "timeEnd": "19:15"
-            }]
-          },
-          {
-            "time": "20:00",
-            "sessions": [{
-              "name": "Louvor e Palestra",
-              "location": "Pavilhão",
-              "description": "Louvor e Palestra.",
-              "title": "Palestra II: Jesus, o pão da vida!",
-              "speakerNames": [
-                "Fabricio Fleck"
-              ],
-              "timeStart": "20:00",
-              "timeEnd": "21:40"
-            }]
-          },
-          {
-            "time": "22:00",
-            "sessions": [{
-              "name": "Celebração de Louvores",
-              "location": "Pavilhão",
-              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-              "timeStart": "22:00",
-              "timeEnd": "23:00"
-            }]
-          },
-          {
-            "time": "24:00",
-            "sessions": [{
-              "name": "Silêncio",
-              "location": "Todos.",
-              "description": "Hora de silenciar.",
-              "timeStart": "00:00",
-              "timeEnd": "07:00"
-            }]
-          }
-        ]
-      },
-      {
-        "day": "2017-02-27",
-        "groups": [{
-            "time": "07:00",
-            "sessions": [{
-                "name": "Acordar",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "08:00",
-                "location": "Todos"
-              },
-              {
-                "name": "Acordando com Jesus",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "07:30",
-                "location": "Rádio"
-              },
-              {
-                "name": "Café",
-                "location": "Acampamentos, quiosques",
-                "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                "timeStart": "07:30",
-                "timeEnd": "08:15"
-              }
-            ]
-          },
-          {
-            "time": "08:00",
-            "sessions": [{
-              "name": "Louvor e Palestra",
-              "location": "Pavilhão",
-              "description": "Louvor e Palestra.",
-              "title": "Palestra: Deus comigo no deserto",
-              "speakerNames": [
-                "Dr. Roger M. Wanke"
-              ],
-              "timeStart": "08:15",
-              "timeEnd": "10:00"
-            }]
-          },
-          {
-            "time": "10:00",
-            "sessions": [{
-              "name": "Seminários",
-              "location": "Diversos",
-              "description": "Seminários.",
-              "timeStart": "10:00",
-              "timeEnd": "12:00",
-              "isSeminar": "true"
-            }]
-          },
-          {
-            "time": "12:00",
-            "sessions": [{
-              "name": "Almoço",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "12:30",
-              "timeEnd": "13:30"
-            }]
-          },
-          {
-            "time": "13:00",
-            "sessions": [{
-              "name": "Início dos Jogos e Tempo Livre",
-              "location": "Quadras e diversos",
-              "description": "Início dos Jogos e Tempo Livre.",
-              "timeStart": "13:15",
-              "timeEnd": "18:15"
-            }]
-          },
-          {
-            "time": "18:00",
-            "sessions": [{
-              "name": "Jantar",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "18:15",
-              "timeEnd": "19:15"
-            }]
-          },
-          {
-            "time": "20:00",
-            "sessions": [{
-              "name": "Louvor e Palestra",
-              "location": "Pavilhão",
-              "description": "Louvor e Palestra.",
-              "title": "Palestra I: Senhor, dá-me dessa água",
-              "speakerNames": [
-                "Diego Probst"
-              ],
-              "timeStart": "20:00",
-              "timeEnd": "21:30"
-            }]
-          },
-          {
-            "time": "22:00",
-            "sessions": [{
-              "name": "Celebração de Louvores",
-              "location": "Pavilhão",
-              "description": "Celebração de Louvores conduzida pela Banda do Congresso.",
-              "timeStart": "22:00",
-              "timeEnd": "23:00"
-            }]
-          },
-          {
-            "time": "24:00",
-            "sessions": [{
-              "name": "Silêncio",
-              "location": "Todos.",
-              "description": "Hora de silenciar.",
-              "timeStart": "00:00",
-              "timeEnd": "07:00"
-            }]
-          }
-        ]
-      },
-      {
-        "day": "2017-02-28",
-        "groups": [{
-            "time": "07:00",
-            "sessions": [{
-                "name": "Acordar",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "08:00",
-                "location": "Todos"
-              },
-              {
-                "name": "Acordando com Jesus",
-                "description": "",
-                "timeStart": "07:00",
-                "timeEnd": "07:30",
-                "location": "Rádio"
-              },
-              {
-                "name": "Café",
-                "location": "Acampamentos, quiosques",
-                "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-                "timeStart": "07:30",
-                "timeEnd": "08:15"
-              }
-            ]
-          },
-          {
-            "time": "08:00",
-            "sessions": [{
-              "name": "Entrega de medalhas",
-              "location": "Pavilhão",
-              "description": "Entrega de medalhas.",
-              "timeStart": "08:15",
-              "timeEnd": "09:00"
-            }]
-          },
-          {
-            "time": "09:00",
-            "sessions": [{
-              "name": "Louvor e Palestra",
-              "location": "Pavilhão",
-              "description": "Louvor e Palestra.",
-              "title": "Palestra II: Senhor, dá-me dessa água",
-              "speakerNames": [
-                "Diego Probst"
-              ],
-              "timeStart": "09:35",
-              "timeEnd": "10:15"
-            }]
-          },
-          {
-            "time": "10:00",
-            "sessions": [{
-              "name": "Encerramento e limpeza",
-              "location": "Diversos",
-              "description": "Encerramento e limpeza.",
-              "timeStart": "10:50",
-              "timeEnd": "12:00"
-            }]
-          },
-          {
-            "time": "12:00",
-            "sessions": [{
-              "name": "Almoço e despedida",
-              "location": "Acampamentos, quiosques",
-              "description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
-              "timeStart": "12:30",
-              "timeEnd": "14:00"
-            }]
-          }
-        ]
-      }
-    ]
+	"data": [{
+			"day": "2017-02-25",
+			"groups": [{
+					"time": "05:00",
+					"sessions": [{
+						"name": "Chegada",
+						"description": "",
+						"start": "05:00",
+						"location": "Portões de acesso"
+					}]
+				},
+				{
+					"time": "08:00",
+					"sessions": [{
+						"name": "Chegada e credenciamento",
+						"location": "Faculdade Luterana de Teologia",
+						"description": "Retirada de crachás, cadastramento de inscrições, inscrição para esportes individuais.",
+						"start": "08:00"
+					}]
+				},
+				{
+					"time": "18:00",
+					"sessions": [{
+						"name": "Jantar",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "18:15"
+					}]
+				},
+				{
+					"time": "20:00",
+					"sessions": [{
+						"name": "Abertura do Congresso",
+						"location": "Pavilhão",
+						"description": "Abertura do Congresso.<br/><br/>Louvor e Palestra.",
+						"title": "Palestra - Insaciável Mente",
+						"speaker": [
+							"Reginaldo Francisco"
+						],
+						"start": "20:00"
+					}]
+				},
+				{
+					"time": "22:20",
+					"sessions": [{
+						"name": "Celebração de Louvores",
+						"location": "Pavilhão",
+						"description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+						"start": "22:00"
+					}]
+				},
+				{
+					"time": "24:00",
+					"sessions": [{
+						"name": "Silêncio",
+						"location": "Todos.",
+						"description": "Hora de silenciar.",
+						"start": "00:00"
+					}]
+				}
+			]
+		},
+		{
+			"day": "2017-02-26",
+			"groups": [{
+					"time": "07:00",
+					"sessions": [{
+							"name": "Acordar",
+							"description": "",
+							"start": "07:00",
+							"location": "Todos"
+						},
+						{
+							"name": "Acordando com Jesus",
+							"description": "",
+							"start": "07:00",
+							"location": "Rádio"
+						},
+						{
+							"name": "Café",
+							"location": "Acampamentos, quiosques",
+							"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+							"start": "07:30"
+						}
+					]
+				},
+				{
+					"time": "08:00",
+					"sessions": [{
+						"name": "Louvor e Palestra",
+						"location": "Pavilhão",
+						"description": "Louvor e Palestra.",
+						"title": "Palestra I: Jesus, o pão da vida!",
+						"speaker": [
+							"Fabricio Fleck"
+						],
+						"start": "08:15"
+					}]
+				},
+				{
+					"time": "10:00",
+					"sessions": [{
+						"name": "Seminários",
+						"location": "Diversos",
+						"description": "Seminários.",
+						"start": "10:00",
+						"isSeminar": "true"
+					}]
+				},
+				{
+					"time": "12:00",
+					"sessions": [{
+						"name": "Almoço",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "12:30"
+					}]
+				},
+				{
+					"time": "13:00",
+					"sessions": [{
+						"name": "Início dos Jogos e Tempo Livre",
+						"location": "Quadras e diversos",
+						"description": "Início dos Jogos e Tempo Livre.",
+						"start": "13:15"
+					}]
+				},
+				{
+					"time": "18:00",
+					"sessions": [{
+						"name": "Jantar",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "18:15"
+					}]
+				},
+				{
+					"time": "20:00",
+					"sessions": [{
+						"name": "Louvor e Palestra",
+						"location": "Pavilhão",
+						"description": "Louvor e Palestra.",
+						"title": "Palestra II: Jesus, o pão da vida!",
+						"speaker": [
+							"Fabricio Fleck"
+						],
+						"start": "20:00"
+					}]
+				},
+				{
+					"time": "22:00",
+					"sessions": [{
+						"name": "Celebração de Louvores",
+						"location": "Pavilhão",
+						"description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+						"start": "22:00"
+					}]
+				},
+				{
+					"time": "24:00",
+					"sessions": [{
+						"name": "Silêncio",
+						"location": "Todos.",
+						"description": "Hora de silenciar.",
+						"start": "00:00"
+					}]
+				}
+			]
+		},
+		{
+			"day": "2017-02-27",
+			"groups": [{
+					"time": "07:00",
+					"sessions": [{
+							"name": "Acordar",
+							"description": "",
+							"start": "07:00",
+							"location": "Todos"
+						},
+						{
+							"name": "Acordando com Jesus",
+							"description": "",
+							"start": "07:00",
+							"location": "Rádio"
+						},
+						{
+							"name": "Café",
+							"location": "Acampamentos, quiosques",
+							"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+							"start": "07:30"
+						}
+					]
+				},
+				{
+					"time": "08:00",
+					"sessions": [{
+						"name": "Louvor e Palestra",
+						"location": "Pavilhão",
+						"description": "Louvor e Palestra.",
+						"title": "Palestra: Deus comigo no deserto",
+						"speaker": [
+							"Dr. Roger M. Wanke"
+						],
+						"start": "08:15"
+					}]
+				},
+				{
+					"time": "10:00",
+					"sessions": [{
+						"name": "Seminários",
+						"location": "Diversos",
+						"description": "Seminários.",
+						"start": "10:00",
+						"isSeminar": "true"
+					}]
+				},
+				{
+					"time": "12:00",
+					"sessions": [{
+						"name": "Almoço",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "12:30"
+					}]
+				},
+				{
+					"time": "13:00",
+					"sessions": [{
+						"name": "Início dos Jogos e Tempo Livre",
+						"location": "Quadras e diversos",
+						"description": "Início dos Jogos e Tempo Livre.",
+						"start": "13:15"
+					}]
+				},
+				{
+					"time": "18:00",
+					"sessions": [{
+						"name": "Jantar",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "18:15"
+					}]
+				},
+				{
+					"time": "20:00",
+					"sessions": [{
+						"name": "Louvor e Palestra",
+						"location": "Pavilhão",
+						"description": "Louvor e Palestra.",
+						"title": "Palestra I: Senhor, dá-me dessa água",
+						"speaker": [
+							"Diego Probst"
+						],
+						"start": "20:00"
+					}]
+				},
+				{
+					"time": "22:00",
+					"sessions": [{
+						"name": "Celebração de Louvores",
+						"location": "Pavilhão",
+						"description": "Celebração de Louvores conduzida pela Banda do Congresso.",
+						"start": "22:00"
+					}]
+				},
+				{
+					"time": "24:00",
+					"sessions": [{
+						"name": "Silêncio",
+						"location": "Todos.",
+						"description": "Hora de silenciar.",
+						"start": "00:00"
+					}]
+				}
+			]
+		},
+		{
+			"day": "2017-02-28",
+			"groups": [{
+					"time": "07:00",
+					"sessions": [{
+							"name": "Acordar",
+							"description": "",
+							"start": "07:00",
+							"location": "Todos"
+						},
+						{
+							"name": "Acordando com Jesus",
+							"description": "",
+							"start": "07:00",
+							"location": "Rádio"
+						},
+						{
+							"name": "Café",
+							"location": "Acampamentos, quiosques",
+							"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+							"start": "07:30"
+						}
+					]
+				},
+				{
+					"time": "08:00",
+					"sessions": [{
+						"name": "Entrega de medalhas",
+						"location": "Pavilhão",
+						"description": "Entrega de medalhas.",
+						"start": "08:15"
+					}]
+				},
+				{
+					"time": "09:00",
+					"sessions": [{
+						"name": "Louvor e Palestra",
+						"location": "Pavilhão",
+						"description": "Louvor e Palestra.",
+						"title": "Palestra II: Senhor, dá-me dessa água",
+						"speaker": [
+							"Diego Probst"
+						],
+						"start": "09:35"
+					}]
+				},
+				{
+					"time": "10:00",
+					"sessions": [{
+						"name": "Encerramento e limpeza",
+						"location": "Diversos",
+						"description": "Encerramento e limpeza.",
+						"start": "10:50"
+					}]
+				},
+				{
+					"time": "12:00",
+					"sessions": [{
+						"name": "Almoço e despedida",
+						"location": "Acampamentos, quiosques",
+						"description": "Você pode fazer suas refeições com seu grupo ou adquirir tickets para comer nos quiosques.",
+						"start": "12:30"
+					}]
+				}
+			]
+		}
+	]
 }
