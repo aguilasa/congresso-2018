@@ -27,13 +27,12 @@ export class ProgramacaoProvider extends BaseProvider {
       let isOn: boolean = true;
 
       day.groups.forEach(group => {
-        // loop through each session in the timeline group
         group.sessions.forEach(session => {
           session.opt = isOn ? "even" : "odd";
           isOn = !isOn;
           session.speakers = [];
-          if (session.speakers) {
-            session.speakers.forEach(speakerName => {
+          if (session.speaker) {
+            session.speaker.forEach(speakerName => {
               let speaker = this.speakers.find(s => s.name === speakerName);
               if (speaker) {
                 session.speakers.push(speaker);
