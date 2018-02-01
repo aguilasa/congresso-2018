@@ -1,0 +1,26 @@
+Intro.: | <b>{0}</b> | 2x<br>
+<br>
+<b>{0}</b><br>
+Ele é exaltado,<br>
+<b>{5}</b><br>
+O Rei é exaltado nos céus<br>
+<b>{2}m</b>   <b>{7}</b><br>
+Eu o louvarei<br>
+<b>{0}</b><br>
+Ele é exaltado,<br>
+Pra sempre exaltado<br>
+<b>{5}</b>        <b>{7}</b>  <b>{9}</b><br>
+Seu nome  Louvarei<br>
+<br>
+<b>{2}m</b>                <b>{7}</b><br>
+Ele     é  o  Senhor<br>
+<b>{0}</b>                  <b>{5}</b><br>
+Sua verdade vai sempre reinar<br>
+<b>{2}m</b>           <b>{7}</b><br>
+Terra  e céus<br>
+<b>{0}</b>              <b>{9}</b><br>
+Glorificam seu Santo nome<br>
+<b>{2}m</b><br>
+Ele é exaltado<br>
+<b>{5}</b>                   <b>{0}</b><br>
+O Rei é exaltado nos céus<br>
