@@ -1,35 +1,43 @@
 {
     "data": [{
-        "name": "Dr. Roger M. Wanke",
-        "profilePic": "assets/img/speakers/roger_m_wanke.png",
+        "name": "Adriana Dümes",
+        "profilePic": "assets/img/speakers/adriana_dumes.png",
         "twitter": "",
-        "about": "Professor na Faculdade Luterana de Teologia de São Bento do Sul/SC<br/><br/>Doutor em Antigo Testamento pela Universidade Friedrich-Schiller em Jena, Alemanha",
-        "location": "",
-        "email": "roger.wanke@flt.edu.br"
+        "about": "Adriana Feliciano Dümes é casada com Nilvo Dümes e mãe do Samuel.<br><br>Formada e pós-graduada em Comércio Exterior, Adriana é professora universitária e empresária.",
+        "location": "Rio do Sul - SC",
+        "email": ""
       },
       {
-        "name": "Diego Probst",
-        "profilePic": "assets/img/speakers/diego_probst.png",
+        "name": "Carlos Kunz",
+        "profilePic": "assets/img/speakers/carlos_kunz.png",
         "twitter": "",
-        "about": "Missionário - Meuc São Bento do Sul/SC<br/><\/br>Natural de Ituporanga/SC.",
-        "location": "",
-        "email": "diego.probst@meuc.org.br"
+        "about": "Carlos Alberto Kunz é graduado em Teologia e Diretor Executivo da Missão Evangélica União Cristã.<br><br>É casado, pai de três filhos e reside junto a sua família em São Bento do Sul - SC",
+        "location": "São Bento do Sul - SC",
+        "email": ""
       },
       {
-        "name": "Fabricio Fleck",
-        "profilePic": "assets/img/speakers/fabricio_fleck.png",
+        "name": "Dionei de Liz",
+        "profilePic": "assets/img/speakers/dionei.png",
         "twitter": "",
-        "about": "Missionário - Meuc Maripá/PR<br/><\/br>Natural de Panambi/RS.",
-        "location": "",
-        "email": "fabricio.fleck@meuc.org.br"
+        "about": "Dionei de Liz, mais conhecido como Dino, graduou-se em Teologia no ano de 2006 na Faculdade Luterana de Teologia. Iniciou seu ministério em Timbó - SC.<br><br>Dino reside em Blumenau - SC com sua família, onde é missionário da Missão Evangélica União Cristã.",
+        "location": "Blumenau - SC",
+        "email": ""
       },
       {
-        "name": "Reginaldo Francisco",
-        "profilePic": "assets/img/speakers/reginaldo.png",
-        "twitter": "BrotherRegis",
-        "about": "Missionário - Meuc Cascavel/PR<br/><\/br>Natural de São Paulo/SP.",
+        "name": "Marcelo Gualberto",
+        "profilePic": "assets/img/speakers/marcelo_gualberto.png",
+        "twitter": "",
+        "about": "Marcelo Gualberto é Diretor da MPC - Mocidade para Cristo, e pastor da CPC.<br><br>Graduado em Teologia e Letras, pós-graduado em Recusos Humanos e Gestão Gastronômica e Hoteleira.<br>É pastor da Comunidade Presbiteriana Central de Belo Horizante - MG",
+        "location": "Belo Horizante - MG",
+        "email": ""
+      },
+      {
+        "name": "Zé Bruno",
+        "profilePic": "assets/img/speakers/ze_bruno.png",
+        "twitter": "",
+        "about": "Nascido José porém conhecido como Zé. Zé Bruno é vocalista e guitarrista da banda Resgate e também é pastor na igreja A Casa da Rocha.<br><br>Com formação acadêmica em Engenharia Civil, Zé Bruno seguiu mesmo o caminho do evangelismo cristão através da música com a banda Resgate.",
         "location": "",
-        "email": "reginaldo.francisco@meuc.org.br"
+        "email": ""
       }
     ]
 }

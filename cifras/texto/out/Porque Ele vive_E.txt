@@ -1,0 +1,39 @@
+Intro.: | <b>{0}</b> <b>{2}</b> | 2x<br>
+<br>
+<b>{0}</b>                <b>{5}</b><br>
+Deus enviou    seu Filho amado<br>
+<b>{0}</b>   <b>{9}m</b>        <b>{2}m</b>   <b>{7}</b><br>
+Para morrer     em meu lugar<br>
+<b>{0}</b>                 <b>{5}</b><br>
+Na cruz morreu  por meus pecados<br>
+<b>{0}</b>    <b>{9}m</b>           <b>{2}m</b>    <b>{7}</b><br>
+Mas ressurgiu e vivo  com o Pai está<br>
+<br>
+<b>{0}</b>                 <b>{5}</b><br>
+Porque ele vive posso crer no amanhã<br>
+<b>{0}</b>  <b>{9}m7</b>       <b>{2}m</b>  <b>{7}</b><br>
+Porque Ele vive temor não há<br>
+<b>{0}</b>                           <b>{5}</b><br>
+Mas eu bem sei, eu sei, que a minha vida<br>
+<b>{0}</b>      <b>{9}m</b>   <b>{2}m</b>      <b>{7}</b><br>
+Está nas mãos do meu Jesus que vivo está<br>
+<br>
+<b>{0}</b>            <b>{5}</b><br>
+E quando enfim chegar a hora<br>
+<b>{0}</b>    <b>{9}m</b>        <b>{2}m</b>  <b>{7}</b><br>
+Em que a morte encontrarei<br>
+<b>{0}</b>          <b>{5}</b><br>
+Seguro então, terei vitória<br>
+<b>{0}</b>       <b>{9}m</b>   <b>{2}m</b>     <b>{7}</b>       <b>{0}</b><br>
+Verei na glória o meu Jesus que vivo está.<br>
+<br>
+<b>{0}</b>                 <b>{5}</b><br>
+Porque ele vive posso crer no amanhã<br>
+<b>{0}</b>  <b>{9}m7</b>       <b>{2}m</b>  <b>{7}</b><br>
+Porque Ele vive temor não há<br>
+<b>{0}</b>                           <b>{5}</b><br>
+Mas eu bem sei, eu sei, que a minha vida<br>
+<b>{0}</b>      <b>{9}m</b>   <b>{2}m</b><br>
+Está nas mãos do meu Jesus<br>
+<b>{7}</b>      <b>{0}</b>   <b>{9}m</b>    <b>{2}m</b>      <b>{7}</b>        <b>{0}</b><br>
+Está nas mãos do meu Jesus que vivo está<br>

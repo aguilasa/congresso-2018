@@ -1,0 +1,72 @@
+Intro: <b>{2}</b> <b>{0}</b> <b>{10}</b> <b>{7}</b> <b>{9}</b> <b>{2}</b> <b>{10}</b> <b>{7}</b> <b>{7}2</b> <b>{0}2</b> <b>{2}</b><br>
+<br>
+<b>{2}</b>        <b>{5}</b><br>
+Louvor, amor<br>
+<b>{0}</b>                <b>{7}2</b><br>
+Amar, louvar ao Senhor<br>
+<b>{2}</b>          <b>{10}</b><br>
+Sorrir, sentir<br>
+<b>{0}</b>               <b>{9}</b><br>
+Viver, crescer o amor<br>
+<b>{2}m</b>                   <b>{5}</b><br>
+Nossa vida é louvar, Nossa vida é amar<br>
+<b>{0}</b>                           <b>{3}</b>        <b>{10}</b><br>
+Existimos pra cantar, E adorar o criador<br>
+<b>{2}sus</b>  <b>{9}m7</b>/<b>{0}</b>  <b>{10}7</b><br>
+<br>
+<b>{0}</b>/<b>{4}</b>     <b>{1}2</b>/<b>{3}</b>    <b>{2}2</b><br>
+Existimos pra louvar<br>
+<br>
+<b>{7}</b>                  <b>{2}</b>       <b>{4}m</b>/<b>{2}</b> <b>{2}</b><br>
+Adorar o criador é sentir o Seu poder<br>
+<b>{0}</b>                        <b>{7}2</b>/<b>{2}</b><br>
+Sua glória e esplendor nossa vida pode ter<br>
+<b>{10}2</b><br>
+Todo o céu se une a nós<br>
+<b>{5}</b>/<b>{0}</b>         <b>{7}m</b>/<b>{0}</b> <b>{5}</b>/<b>{0}</b><br>
+Na emoção da nossa voz<br>
+<b>{0}</b>               <b>{7}2</b> <b>{7}2</b>/<b>{9}</b><br>
+Ministério do louvor<br>
+<b>{0}2</b>/<b>{10}</b>      <b>{0}sus</b>   <b>{2}</b><br>
+É uma vida de amor<br>
+<br>
+Interlúdio: <b>{10}2</b> <b>{2}</b> <b>{10}2</b> <b>{0}</b> <b>{10}</b> <b>{0}</b><br>
+<br>
+<b>{2}</b>     <b>{5}</b><br>
+Servir, agir<br>
+<b>{0}</b>                  <b>{7}2</b><br>
+Levar mais força e vigor<br>
+<b>{2}</b>    <b>{10}</b>       <b>{0}</b>              <b>{9}</b><br>
+Fazer o bem pro mundo ter mais amor<br>
+<b>{2}m</b>                <b>{5}</b>                   <b>{2}m</b>/<b>{5}</b><br>
+Nossa vida é amar, Nossa vida é cantar<br>
+<b>{0}</b>                         <b>{3}</b>        <b>{10}2</b><br>
+Existimos pra levar, A mensagem do amor<br>
+<b>{11}2</b>   <b>{0}2</b>         <b>{2}</b><br>
+A mensagem do amor<br>
+<br>
+<b>{7}m9</b>             <b>{0}2</b>/<b>{4}</b><br>
+O som da paz em nós nasceu<br>
+<b>{5}9</b>                 <b>{10}7</b><br>
+O tom do amor o Senhor nos deu<br>
+<b>{0}2</b>/<b>{4}</b><br>
+Cada nota de louvor<br>
+<b>{2}</b>/<b>{4}</b><br>
+É um exemplo de amor<br>
+<b>{10}</b>/<b>{5}</b>                 <b>{3}2</b><br>
+Toda honra seja dada ao Senhor<br>
+<br>
+<b>{8}</b>                  <b>{3}</b><br>
+Adorar o criador é sentir o Seu poder<br>
+<b>{1}</b>                     <b>{8}2</b>/<b>{3}</b><br>
+Sua glória e esplendor nossa vida pode ter<br>
+<b>{11}2</b><br>
+Todo o céu se une a nós<br>
+<b>{6}</b>/<b>{1}</b>        <b>{8}m</b>/<b>{1}</b> <b>{6}</b>/<b>{1}</b><br>
+Na emoção da nossa voz<br>
+<b>{1}</b>             <b>{8}2</b><br>
+Ministério do louvor<br>
+<b>{1}2</b>/<b>{11}</b> <b>{1}sus</b> <b>{3}</b> <b>{8}</b>/<b>{3}</b> <b>{8}</b>/<b>{3}</b> <b>{0}m7</b> <b>{10}9</b> <b>{7}7</b>/<b>{8}</b> <b>{8}</b>/<b>{6}</b> <b>{10}</b>/<b>{5}</b><br>
+É uma vida de amor<br>
+<b>{3}</b><br>
+Louvor!<br>

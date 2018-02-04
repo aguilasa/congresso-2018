@@ -1,11 +1,7 @@
-<ion-list no-border no-lines>
-  <div *ngFor="let d of seminarData">
-    <button ion-item (click)="toggleSeminar(d)" detail-none>
-      <ion-icon item-start [name]="d.icon" color="primary" class=""></ion-icon>
-      {{d.title}}        
-    </button>
-
-    <div [innerHTML]="d.details" *ngIf="d.showDetails" class="sem"></div>
-
-  </div>
+<ion-list>
+  <ion-item *ngFor="let d of seminarData">
+    <h2>{{d.title}}</h2>
+    <h3>{{d.subtitle}}</h3>
+    <p [innerHTML]="d.speakers"></p>
+  </ion-item>
 </ion-list>

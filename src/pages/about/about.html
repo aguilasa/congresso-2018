@@ -17,10 +17,11 @@
     <seminarios no-border *ngIf="shows[0].show"></seminarios>
 
   </ion-card>
+
   <ion-card class="cards-list-demo">
     <ion-card-header (click)="togleInfo(2)">
       <ion-icon [name]="shows[1].icon" class="header"></ion-icon>
-      Preços - Quiosques
+      Preços - Alimentação
     </ion-card-header>
     <ion-item-group *ngIf="shows[1].show">
       <ion-item-divider color="light">

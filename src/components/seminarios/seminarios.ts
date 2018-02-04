@@ -8,7 +8,7 @@ import { SeminariosProvider } from '../../providers/seminarios/seminarios';
 })
 export class SeminariosComponent {
 
-  seminarData: Array<{ id: number, title: string, details: string, icon: string, showDetails: boolean }> = [];
+  seminarData: Array<{ id: number, title: string, subtitle: string, speakers: string }> = [];
 
   constructor(public seminProv: SeminariosProvider) {
   }
@@ -25,24 +25,11 @@ export class SeminariosComponent {
         this.seminarData.push({
           id: i,
           title: seminar.title,
-          details: seminar.description,
-          icon: 'ios-arrow-down',
-          showDetails: false
+          subtitle: seminar.subtitle,
+          speakers: seminar.speakers.join("<br>")
         });
       }
     });
-  }
-
-  toggleSeminar(data) {
-    for (let s of this.seminarData) {
-      if (s.id !== data.id) {
-        s.showDetails = false;
-        s.icon = 'ios-arrow-down';
-      }
-    }
-
-    data.showDetails = !data.showDetails;
-    data.icon = data.showDetails ? 'ios-arrow-up' : 'ios-arrow-down';
   }
 
 }

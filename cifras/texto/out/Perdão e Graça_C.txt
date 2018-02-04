@@ -1,0 +1,28 @@
+Intro: <b>{0}</b>  <b>{5}</b>  <b>{0}</b>  <b>{5}</b>  <b>{0}</b>  <b>{7}</b>  <b>{0}</b><br>
+<br>
+<b>{0}</b>                          <b>{5}</b>        <b>{0}</b><br>
+Confesso a ti, Senhor, que fraco eu sou<br>
+<b>{5}</b>            <b>{0}</b>        <b>{7}</b>        <b>{0}</b><br>
+Tão fraco eu sou, mas forte tu és<br>
+<b>{0}</b>                       <b>{5}</b>        <b>{0}</b><br>
+Eu venho a ti, Senhor, sem nada pra dar<br>
+<b>{5}</b>          <b>{0}</b>            <b>{7}</b>          <b>{0}</b>         <b>{7}</b>    <b>{0}</b><br>
+Só quero pedir, vem e ajuda-me, oh Deus<br>
+<br>
+<b>{2}m</b>               <b>{0}</b>/<b>{4}</b><br>
+Um coração quebrantado e humilde<br>
+<b>{5}</b>               <b>{7}</b><br>
+Não rejeitas, Senhor<br>
+<b>{2}m</b>                <b>{0}</b>/<b>{4}</b><br>
+Estenda a mim tua graça e deixe<br>
+<b>{5}</b>                    <b>{7}</b><br>
+Teu amor fluir, por misericórdia nós clamamos<br>
+<br>
+<b>{0}</b><br>
+Faz chover perdão e graça<br>
+<b>{5}</b><br>
+Sobre mim, perdão e graça<br>
+<b>{7}</b><br>
+E lava-me, Senhor<br>
+<b>{0}</b><br>
+Pois hoje eu preciso de teu amor<br>
