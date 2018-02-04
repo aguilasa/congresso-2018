@@ -3,6 +3,9 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController } from 'ionic-angular';
 
 import { ProdutosProvider } from '../../providers/produtos/produtos';
+import { HorasProvider } from '../../providers/horas/horas';
+
+HorasProvider
 
 @Component({
   selector: 'page-about',
@@ -21,7 +24,8 @@ export class AboutPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public alerCtrl: AlertController,
-    public prodProv: ProdutosProvider
+    public prodProv: ProdutosProvider,
+    public horasProv: HorasProvider
   ) {
     this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
     this.shows.push({ id: 2, icon: "ios-arrow-down", show: false }); //preços
@@ -55,5 +59,11 @@ export class AboutPage {
       }
       s.icon = s.show ? 'ios-arrow-up' : 'ios-arrow-down';
     }
+  }
+
+  horas() {
+    this.horasProv.getHoras().then(horas => {
+      console.log(horas);
+    });
   }
 }

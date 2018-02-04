@@ -29,6 +29,7 @@ import { TonsProvider } from '../providers/tons/tons';
 import { SeminariosProvider } from '../providers/seminarios/seminarios';
 
 import { SeminariosComponent } from '../components/seminarios/seminarios';
+import { HorasProvider } from '../providers/horas/horas';
 
 
 @NgModule({
@@ -77,7 +78,8 @@ import { SeminariosComponent } from '../components/seminarios/seminarios';
     PalestrantesProvider,
     MusicasProvider,
     TonsProvider,
-    SeminariosProvider
+    SeminariosProvider,
+    HorasProvider
   ]
 })
 export class AppModule { }
