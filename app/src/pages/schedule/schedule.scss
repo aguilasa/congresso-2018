@@ -1,33 +1,29 @@
-$categories: (
- even: color($colors, danger),
- odd: color($colors, primary)
-);
-
+$categories: ( even: color($colors, danger), odd: color($colors, primary));
 @function auxiliary-categories() {
   @return map-remove($categories);
 }
 
 page-schedule {
-  @each $opt, $value in auxiliary-categories() {
-   div[opt=#{$opt}] {
-     border-left: 2px solid $value;
-   }
+  @each $opt,
+  $value in auxiliary-categories() {
+    div[opt=#{$opt}] {
+      border-left: 2px solid $value;
+    }
   }
-  
   ion-item-divider ion-label {
     text-align: left;
   }
-
   div.inline {
-    display:table-cell;
+    display: table-cell;
   }
-
   div.time {
     padding-right: 10px;
   }
-
   div.time p {
     line-height: 1.5em;
+  }
+  h3.nomargin:first-child {
+    margin-top: 0;
   }
 }
 

@@ -5,6 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
+import { Network } from '@ionic-native/network';
 
 import { CongressoApp } from './app.component';
 
@@ -79,7 +80,8 @@ import { HorasProvider } from '../providers/horas/horas';
     MusicasProvider,
     TonsProvider,
     SeminariosProvider,
-    HorasProvider
+    HorasProvider,
+    Network
   ]
 })
 export class AppModule { }

@@ -18,8 +18,8 @@ export class TabsPage {
     { page: SpeakerListPage, icon: 'contacts' },
     { page: MusicListPage, icon: 'musical-notes' },
     { page: MapPage, icon: 'locate' },
-    { page: AboutPage, icon: 'information-circle' },
-    { page: GameListPage, icon: 'football' }
+    { page: AboutPage, icon: 'information-circle' } /*,
+  { page: GameListPage, icon: 'football'  } */
   ];
   // set the root pages for each tab
   tab1Root: any = SchedulePage;

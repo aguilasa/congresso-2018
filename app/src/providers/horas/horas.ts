@@ -9,7 +9,7 @@ const URL = 'http://www.aguilasa.com/servicos/congresso/horas.php';
 export class HorasProvider {
 
   constructor(public http: Http) {
-    console.log('Hello HorasProvider Provider');
+    
   }
 
   public getHoras() {
