@@ -83,32 +83,32 @@ export class AboutPage {
   }
 
   callEvaluation() {
-    if (this.isEnabled) {
-      this.horasProv.getHoras().then(horas => {
-        if (horas.ano >= 2018 && horas.mes >= 2 && horas.dia >= 13) {
-          this.goToEvaluation();
-        } else {
-          let alert = this.alerCtrl.create({
-            title: "Avaliação",
-            message: 'Avaliação disponível apenas a partir de 13/02/2018',
-            buttons: ['Ok']
-          });
-          alert.present();
-        }
-      }, err => {
-        this.toast.create({
-          message: 'Erro ao abrir avaliação.',
-          duration: 3000
-        }).present();
-      });
-    } else {
+    //if (this.isEnabled) {
+    this.horasProv.getHoras().then(horas => {
+      if (horas.ano >= 2018 && horas.mes >= 2 && horas.dia >= 13) {
+        this.goToEvaluation();
+      } else {
+        let alert = this.alerCtrl.create({
+          title: "Avaliação",
+          message: 'Avaliação disponível apenas a partir de 13/02/2018',
+          buttons: ['Ok']
+        });
+        alert.present();
+      }
+    }, err => {
+      this.toast.create({
+        message: 'Erro ao abrir avaliação.',
+        duration: 3000
+      }).present();
+    });
+    /*} else {
       let alert = this.alerCtrl.create({
         title: "Avaliação",
         message: 'É necessário estar conectado a Internet.',
         buttons: ['Ok']
       });
       alert.present();
-    }
+    } */
   }
 
   goToEvaluation() {
