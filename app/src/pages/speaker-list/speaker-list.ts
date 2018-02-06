@@ -26,7 +26,7 @@ export class SpeakerListPage {
     public palProv: PalestrantesProvider,
     public config: Config,
     public inAppBrowser: InAppBrowser
-  ) {}
+  ) { }
 
   ionViewDidLoad() {
     this.palProv.getData().subscribe(speakers => {

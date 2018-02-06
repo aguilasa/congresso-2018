@@ -18,7 +18,6 @@ self.addEventListener('activate', (event) => {
         cacheNames.map((cacheName) => {
           if (expectedCacheNames.indexOf(cacheName) === -1) {
             // If this cache name isn't present in the array of "expected" cache names, then delete it.
-            console.log('Deleting out of date cache:', cacheName);
             return caches.delete(cacheName);
           }
         })
@@ -48,8 +47,6 @@ self.addEventListener('fetch', (event) => {
 
         // Otherwise, if there is no entry in the cache for event.request, response will be
         // undefined, and we need to fetch() the resource.
-        console.log(' No response for %s found in cache. ' +
-          'About to fetch from network...', event.request.url);
 
         // We call .clone() on the request since we might use it in the call to cache.put() later on.
         // Both fetch() and cache.put() "consume" the request, so we need to make a copy.
@@ -71,8 +68,6 @@ self.addEventListener('fetch', (event) => {
         // This catch() will handle exceptions that arise from the match() or fetch() operations.
         // Note that a HTTP error response (e.g. 404) will NOT trigger an exception.
         // It will return a normal response object that has the appropriate error code set.
-        console.error('  Read-through caching failed:', error);
-
         throw error;
       });
     })

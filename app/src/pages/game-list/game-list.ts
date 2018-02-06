@@ -11,7 +11,6 @@ export class GameListPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad GameListPage');
   }
 
 }

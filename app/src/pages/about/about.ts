@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { NavController, NavParams, AlertController, ToastController } from 'ionic-angular';
 import { Network } from '@ionic-native/network';
 import { Subscription } from 'rxjs/Subscription';
-
+import { InAppBrowser } from "@ionic-native/in-app-browser";
 import { ProdutosProvider } from '../../providers/produtos/produtos';
 import { HorasProvider } from '../../providers/horas/horas';
 
@@ -21,6 +21,7 @@ export class AboutPage {
   shows: Array<{ id: number, icon: string, show: boolean }> = [];
   connected: Subscription;
   disconnected: Subscription;
+  isEnabled: boolean = false;
 
   constructor(
     public navCtrl: NavController,
@@ -29,7 +30,8 @@ export class AboutPage {
     public prodProv: ProdutosProvider,
     public horasProv: HorasProvider,
     private network: Network,
-    private toast: ToastController
+    private toast: ToastController,
+    public inAppBrowser: InAppBrowser
   ) {
     this.shows.push({ id: 1, icon: "ios-arrow-down", show: false }); //seminários
     this.shows.push({ id: 2, icon: "ios-arrow-down", show: false }); //preços
@@ -40,20 +42,16 @@ export class AboutPage {
   }
 
   ionViewDidEnter() {
-    console.log('ionViewDidEnter');
     this.connected = this.network.onConnect().subscribe(data => {
-      console.log(data)
-      this.displayNetworkUpdate(data.type);
-    }, error => console.error(error));
+      this.isEnabled = true;
+    });
 
     this.disconnected = this.network.onDisconnect().subscribe(data => {
-      console.log(data)
-      this.displayNetworkUpdate(data.type);
-    }, error => console.error(error));
+      this.isEnabled = false;
+    });
   }
 
   ionViewWillLeave() {
-    console.log('ionViewWillLeave');
     this.connected.unsubscribe();
     this.disconnected.unsubscribe();
   }
@@ -84,26 +82,39 @@ export class AboutPage {
     }
   }
 
-  horas() {
-    this.horasProv.getHoras().then(horas => {
-      console.log(horas);
-      this.toast.create({
-        message: 'Ano: ' + horas.ano,
-        duration: 3000
-      }).present();
-    }, err => {
-      this.toast.create({
-        message: 'Erro: ' + err,
-        duration: 3000
-      }).present();
-    });
+  callEvaluation() {
+    if (this.isEnabled) {
+      this.horasProv.getHoras().then(horas => {
+        if (horas.ano >= 2018 && horas.mes >= 2 && horas.dia >= 13) {
+          this.goToEvaluation();
+        } else {
+          let alert = this.alerCtrl.create({
+            title: "Avaliação",
+            message: 'Avaliação disponível apenas a partir de 13/02/2018',
+            buttons: ['Ok']
+          });
+          alert.present();
+        }
+      }, err => {
+        this.toast.create({
+          message: 'Erro ao abrir avaliação.',
+          duration: 3000
+        }).present();
+      });
+    } else {
+      let alert = this.alerCtrl.create({
+        title: "Avaliação",
+        message: 'É necessário estar conectado a Internet.',
+        buttons: ['Ok']
+      });
+      alert.present();
+    }
   }
 
-  displayNetworkUpdate(connectionState: string) {
-    let networkType = this.network.type;
-    this.toast.create({
-      message: `You are now ${connectionState} via ${networkType}`,
-      duration: 3000
-    }).present();
+  goToEvaluation() {
+    this.inAppBrowser.create(
+      'https://docs.google.com/forms/d/e/1FAIpQLSchrYo2-VHY-xTohy1Bl3PTyjJlEFdo-l_IkKEK6QeyfzoXRQ/viewform',
+      "_blank"
+    );
   }
 }

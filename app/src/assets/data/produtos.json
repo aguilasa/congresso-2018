@@ -3,102 +3,102 @@
     {
       "name": "Água Mineral",
       "price": "R$2,50",
-      "kiosks": "Quiosque, Refeitório"
+      "kiosks": "Quiosque 1, Quiosque 2 (Refeitório)"
     },
     {
       "name": "Carvão",
       "price": "R$10,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Choco Leite",
       "price": "R$4,00",
-      "kiosks": "Quiosque, Refeitório"
+      "kiosks": "Quiosque 1, Quiosque 2 (Refeitório)"
     },
     {
       "name": "Crepe",
       "price": "R$3,00",
-      "kiosks": "Quiosque"
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Galeto c/Pão",
       "price": "R$5,00",
-      "kiosks": "Quiosque"
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Misto Quente",
       "price": "R$3,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Pastel",
       "price": "R$3,75",
-      "kiosks": "Quiosque"
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Mini Pizza",
       "price": "R$4,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Refrigerante 600Ml / H2OH",
       "price": "R$4,50",
-      "kiosks": "Quiosque, Refeitório"
+      "kiosks": "Quiosque 1, Quiosque 2 (Refeitório)"
     },
     {
       "name": "Refrigerante Lata",
       "price": "R$4,00",
-      "kiosks": "Quiosque, Refeitório"
+      "kiosks": "Quiosque 1, Quiosque 2 (Refeitório)"
     },
     {
       "name": "Sanduíche Natural",
       "price": "R$4,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Suco",
       "price": "R$4,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Cheese Burger",
       "price": "R$6,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Fritas",
       "price": "R$7,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Gelo",
       "price": "R$7,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Água 5l",
       "price": "R$8,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Prato feito",
       "price": "R$10,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Hamburguer Gourmet",
       "price": "R$12,00",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     },
     {
       "name": "Milho verde",
       "price": "R$2,50",
-      "kiosks": "Quiosque"
+      "kiosks": "Quiosque 1"
     },
     {
       "name": "Salada de Frutas",
       "price": "R$3,50",
-      "kiosks": "Refeitório"
+      "kiosks": "Quiosque 2 (Refeitório)"
     }
   ]
 }
