@@ -42,7 +42,7 @@ export class SchedulePage {
   updateSchedule(doSlide) {
     this.scrollToTop();
     this.dayIndex = this.getDayIndex(this.segment);
-    
+
     if (doSlide) {
       this.slider.slideTo(this.dayIndex);
     }

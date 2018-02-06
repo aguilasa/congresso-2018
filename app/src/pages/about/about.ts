@@ -97,7 +97,7 @@ export class AboutPage {
       }
     }, err => {
       this.toast.create({
-        message: 'Erro ao abrir avaliação.',
+        message: 'Erro ao abrir avaliação. Verifique sua conexão com a Internet.',
         duration: 3000
       }).present();
     });
