@@ -1,80 +1,98 @@
 {
-  "data": [{
+  "data": [
+    {
       "day": "2018-02-10",
-      "groups": [{
+      "groups": [
+        {
           "time": "06:00",
-          "sessions": [{
-            "name": "Abertura dos portões / Acesso ao Camping",
-            "start": "06:00",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Abertura dos portões / Acesso ao Camping",
+              "start": "06:00",
+              "description": "",
+              "location": ""
+            }
+          ]
         },
         {
           "time": "13:00",
-          "sessions": [{
-            "name": "Congresso Técnico (Esportes)",
-            "start": "13:30",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Congresso Técnico (Esportes)",
+              "start": "13:30",
+              "description": "",
+              "location": ""
+            }
+          ]
         },
         {
           "time": "16:00",
-          "sessions": [{
-            "name": "Reunião de Líderes ",
-            "start": "16:00",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Reunião de Líderes ",
+              "start": "16:00",
+              "description": "",
+              "location": ""
+            }
+          ]
         },
         {
           "time": "19:00",
-          "sessions": [{
-            "name": "Abertura",
-            "start": "19:30",
-            "description": "",
-            "location": "Pavilhão"
-          }]
+          "sessions": [
+            {
+              "name": "Abertura",
+              "start": "19:30",
+              "description": "",
+              "location": "Pavilhão"
+            }
+          ]
         },
         {
           "time": "20:00",
-          "sessions": [{
-            "name": "Palestra",
-            "start": "20:30",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "\"Vasos de barro nas mãos do Oleiro\"",
-            "speaker": [
-              "Zé Bruno"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Palestra",
+              "start": "20:30",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "\"Vasos de barro nas mãos do Oleiro\"",
+              "speaker": [
+                "Zé Bruno"
+              ]
+            }
+          ]
         },
         {
           "time": "21:00",
-          "sessions": [{
-            "name": "Participação especial Banda Resgate",
-            "start": "21:30",
-            "description": "",
-            "location": "Pavilhão"
-          }]
+          "sessions": [
+            {
+              "name": "Participação especial Banda Resgate",
+              "start": "21:30",
+              "description": "",
+              "location": "Pavilhão"
+            }
+          ]
         },
         {
           "time": "00:00",
-          "sessions": [{
-            "name": "Silêncio",
-            "start": "00:00",
-            "description": "",
-            "location": "Todos"
-          }]
+          "sessions": [
+            {
+              "name": "Silêncio",
+              "start": "00:00",
+              "description": "",
+              "location": "Todos"
+            }
+          ]
         }
       ]
     },
     {
       "day": "2018-02-11",
-      "groups": [{
+      "groups": [
+        {
           "time": "07:00",
-          "sessions": [{
+          "sessions": [
+            {
               "name": "Acordando com Jesus (Rádio)",
               "start": "07:20",
               "description": "",
@@ -90,20 +108,23 @@
         },
         {
           "time": "08:00",
-          "sessions": [{
-            "name": "Louvor + Palestra",
-            "start": "08:30",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "Quebrei! E agora?",
-            "speaker": [
-              "Carlos Kunz"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Louvor + Palestra",
+              "start": "08:30",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "Quebrei! E agora?",
+              "speaker": [
+                "Carlos Kunz"
+              ]
+            }
+          ]
         },
         {
           "time": "10:00",
-          "sessions": [{
+          "sessions": [
+            {
               "name": "Intervalo",
               "start": "10:00",
               "description": "",
@@ -120,87 +141,105 @@
         },
         {
           "time": "12:00",
-          "sessions": [{
-            "name": "Almoço",
-            "start": "12:00",
-            "description": "",
-            "location": "Acampamento, quiosques"
-          }]
+          "sessions": [
+            {
+              "name": "Almoço",
+              "start": "12:00",
+              "description": "",
+              "location": "Acampamento, quiosques"
+            }
+          ]
         },
         {
           "time": "13:00",
-          "sessions": [{
-            "name": "Esportes",
-            "start": "13:30",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Esportes",
+              "start": "13:30",
+              "description": "",
+              "location": ""
+            }
+          ]
         },
         {
           "time": "15:00",
-          "sessions": [{
-            "name": "Piscina para elas",
-            "start": "15:00",
-            "description": "",
-            "location": "Piscina"
-          }]
+          "sessions": [
+            {
+              "name": "Piscina para elas",
+              "start": "15:00",
+              "description": "",
+              "location": "Piscina"
+            }
+          ]
         },
         {
           "time": "16:00",
-          "sessions": [{
-            "name": "Piscina para eles",
-            "start": "16:00",
-            "description": "",
-            "location": "Piscina"
-          }]
+          "sessions": [
+            {
+              "name": "Piscina para eles",
+              "start": "16:00",
+              "description": "",
+              "location": "Piscina"
+            }
+          ]
         },
         {
           "time": "18:00",
-          "sessions": [{
-            "name": "Jantar ",
-            "start": "18:15",
-            "description": "",
-            "location": "Acampamento, quiosques"
-          }]
+          "sessions": [
+            {
+              "name": "Jantar ",
+              "start": "18:15",
+              "description": "",
+              "location": "Acampamento, quiosques"
+            }
+          ]
         },
         {
           "time": "20:00",
-          "sessions": [{
-            "name": "Louvor + Palestra",
-            "start": "20:00",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "As marcas do passado e o sofrimento do presente",
-            "speaker": [
-              "Adriana Dümes"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Louvor + Palestra",
+              "start": "20:00",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "As marcas do passado e o sofrimento do presente",
+              "speaker": [
+                "Adriana Dümes"
+              ]
+            }
+          ]
         },
         {
           "time": "22:00",
-          "sessions": [{
-            "name": "Celebração de Louvores.",
-            "start": "22:00",
-            "description": "",
-            "location": "Pavilhão"
-          }]
+          "sessions": [
+            {
+              "name": "Celebração de Louvores.",
+              "start": "22:00",
+              "description": "",
+              "location": "Pavilhão"
+            }
+          ]
         },
         {
           "time": "00:00",
-          "sessions": [{
-            "name": "Silêncio.",
-            "start": "00:00",
-            "description": "",
-            "location": "Todos"
-          }]
+          "sessions": [
+            {
+              "name": "Silêncio.",
+              "start": "00:00",
+              "description": "",
+              "location": "Todos"
+            }
+          ]
         }
       ]
     },
     {
       "day": "2018-02-12",
-      "groups": [{
+      "groups": [
+        {
           "time": "07:00",
-          "sessions": [{
+          "sessions": [
+            {
               "name": "Acordando com Jesus (Rádio)",
               "start": "07:20",
               "description": "",
@@ -216,20 +255,23 @@
         },
         {
           "time": "08:00",
-          "sessions": [{
-            "name": "Louvor + Palestra",
-            "start": "08:30",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "Fracos, porém, Fortes",
-            "speaker": [
-              "Dionei de Liz"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Louvor + Palestra",
+              "start": "08:30",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "Fracos, porém, Fortes",
+              "speaker": [
+                "Dionei de Liz"
+              ]
+            }
+          ]
         },
         {
           "time": "10:00",
-          "sessions": [{
+          "sessions": [
+            {
               "name": "Intervalo",
               "start": "10:00",
               "description": "",
@@ -246,87 +288,105 @@
         },
         {
           "time": "12:00",
-          "sessions": [{
-            "name": "Almoço",
-            "start": "12:00",
-            "description": "",
-            "location": "Acampamento, quiosques"
-          }]
+          "sessions": [
+            {
+              "name": "Almoço",
+              "start": "12:00",
+              "description": "",
+              "location": "Acampamento, quiosques"
+            }
+          ]
         },
         {
           "time": "13:00",
-          "sessions": [{
-            "name": "Esportes",
-            "start": "13:30",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Esportes",
+              "start": "13:30",
+              "description": "",
+              "location": ""
+            }
+          ]
         },
         {
           "time": "15:00",
-          "sessions": [{
-            "name": "Piscina para elas",
-            "start": "15:00",
-            "description": "",
-            "location": "Piscina"
-          }]
+          "sessions": [
+            {
+              "name": "Piscina para elas",
+              "start": "15:00",
+              "description": "",
+              "location": "Piscina"
+            }
+          ]
         },
         {
           "time": "16:00",
-          "sessions": [{
-            "name": "Piscina para eles",
-            "start": "16:00",
-            "description": "",
-            "location": "Piscina"
-          }]
+          "sessions": [
+            {
+              "name": "Piscina para eles",
+              "start": "16:00",
+              "description": "",
+              "location": "Piscina"
+            }
+          ]
         },
         {
           "time": "18:00",
-          "sessions": [{
-            "name": "Jantar ",
-            "start": "18:15",
-            "description": "",
-            "location": "Acampamento, quiosques"
-          }]
+          "sessions": [
+            {
+              "name": "Jantar ",
+              "start": "18:15",
+              "description": "",
+              "location": "Acampamento, quiosques"
+            }
+          ]
         },
         {
           "time": "20:00",
-          "sessions": [{
-            "name": "Louvor + Palestra",
-            "start": "20:00",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "Deus não muda! Já eu...",
-            "speaker": [
-              "Marcelo Gualberto"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Louvor + Palestra",
+              "start": "20:00",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "Deus não muda! Já eu...",
+              "speaker": [
+                "Marcelo Gualberto"
+              ]
+            }
+          ]
         },
         {
           "time": "22:00",
-          "sessions": [{
-            "name": "Celebração de Louvores.",
-            "start": "22:00",
-            "description": "",
-            "location": "Pavilhão"
-          }]
+          "sessions": [
+            {
+              "name": "Celebração de Louvores.",
+              "start": "22:00",
+              "description": "",
+              "location": "Pavilhão"
+            }
+          ]
         },
         {
           "time": "00:00",
-          "sessions": [{
-            "name": "Silêncio.",
-            "start": "00:00",
-            "description": "",
-            "location": "Todos"
-          }]
+          "sessions": [
+            {
+              "name": "Silêncio.",
+              "start": "00:00",
+              "description": "",
+              "location": "Todos"
+            }
+          ]
         }
       ]
     },
     {
       "day": "2018-02-13",
-      "groups": [{
+      "groups": [
+        {
           "time": "07:00",
-          "sessions": [{
+          "sessions": [
+            {
               "name": "Acordando com Jesus (Rádio)",
               "start": "07:20",
               "description": "",
@@ -342,34 +402,40 @@
         },
         {
           "time": "08:00",
-          "sessions": [{
-            "name": "Premiação esportes",
-            "start": "08:30",
-            "description": "",
-            "location": "Pavilhão"
-          }]
+          "sessions": [
+            {
+              "name": "Premiação esportes",
+              "start": "08:30",
+              "description": "",
+              "location": "Pavilhão"
+            }
+          ]
         },
         {
           "time": "09:00",
-          "sessions": [{
-            "name": "Louvor + Palestra",
-            "start": "09:30",
-            "description": "",
-            "location": "Pavilhão",
-            "title": "Criados para sermos Vasos de Bênçãos",
-            "speaker": [
-              "Marcelo Gualberto"
-            ]
-          }]
+          "sessions": [
+            {
+              "name": "Louvor + Palestra",
+              "start": "09:30",
+              "description": "",
+              "location": "Pavilhão",
+              "title": "Criados para sermos Vasos de Bênçãos",
+              "speaker": [
+                "Marcelo Gualberto"
+              ]
+            }
+          ]
         },
         {
           "time": "12:00",
-          "sessions": [{
-            "name": "Despedida / Almoço",
-            "start": "12:00",
-            "description": "",
-            "location": ""
-          }]
+          "sessions": [
+            {
+              "name": "Despedida / Almoço",
+              "start": "12:00",
+              "description": "",
+              "location": ""
+            }
+          ]
         }
       ]
     }

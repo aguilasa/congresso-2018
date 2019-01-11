@@ -7,7 +7,6 @@ import { MapPage } from '../map/map';
 import { SchedulePage } from '../schedule/schedule';
 import { SpeakerListPage } from '../speaker-list/speaker-list';
 import { MusicListPage } from '../music-list/music-list';
-import { GameListPage } from '../game-list/game-list';
 
 @Component({
   templateUrl: 'tabs.html'

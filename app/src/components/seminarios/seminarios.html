@@ -1,5 +1,5 @@
 <ion-list>
-  <ion-item *ngFor="let d of seminarData">
+  <ion-item *ngFor="let d of seminarData" text-wrap>
     <h2 class="nomargin">{{d.title}}</h2>
     <h3>{{d.subtitle}}</h3>
     <p [innerHTML]="d.speakers"></p>
